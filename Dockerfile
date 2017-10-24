@@ -7,3 +7,5 @@ RUN apk update \
             rsync \
             openssh-client \
  && rm -rf /var/cache/apk/*
+
+RUN echo "hi"
